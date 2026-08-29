@@ -1,0 +1,45 @@
+{
+  "greeting": [
+    "Hello! I'm the Student Support Assistant. How can I help you today?",
+    "Hi there! What can I help you with regarding your studies today?"
+  ],
+  "goodbye": [
+    "Goodbye! Feel free to come back if you have more questions.",
+    "Take care! Good luck with your studies."
+  ],
+  "thanks": [
+    "You're welcome! Let me know if there's anything else.",
+    "Happy to help!"
+  ],
+  "office_hours": [
+    "Most academic advisors hold office hours Monday to Friday, 9 AM to 4 PM. Please check your professor's syllabus for their specific times.",
+    "Office hours are typically listed on your course syllabus or the department website. Generally, the advising office is open 9 AM\u20134 PM on weekdays."
+  ],
+  "registration_deadline": [
+    "Registration deadlines vary by semester \u2014 typically two weeks before the term starts. Check the academic calendar on the registrar's website for exact dates.",
+    "The add/drop period usually runs during the first week of classes. Visit the registrar's page for this term's exact deadline."
+  ],
+  "financial_aid": [
+    "You can apply for financial aid through the FAFSA at studentaid.gov. Your school's financial aid office can help with scholarships and grants too.",
+    "For financial aid questions, contact the Financial Aid Office directly \u2014 they handle FAFSA, scholarships, and loan counseling."
+  ],
+  "library_hours": [
+    "The main library is typically open 8 AM\u201310 PM on weekdays and 10 AM\u20136 PM on weekends. Hours may extend during finals week.",
+    "Library hours vary by semester \u2014 check the library's website for real-time hours, especially around exams."
+  ],
+  "tech_support": [
+    "For login or password issues, try the 'Forgot Password' link on the student portal. If that doesn't work, contact IT Support.",
+    "Sounds like a tech issue \u2014 I'd recommend reaching out to the campus IT Help Desk for direct troubleshooting."
+  ],
+  "course_selection": [
+    "Course selection depends on your major requirements \u2014 I'd recommend checking your degree audit or speaking with your academic advisor.",
+    "Your academic advisor can help map out required courses and electives based on your degree plan."
+  ],
+  "mental_health_support": [
+    "Your campus Counseling Center offers free confidential support for students \u2014 I'd encourage you to reach out to them directly.",
+    "It's completely normal to feel stressed during the semester. Campus counseling services are available and confidential \u2014 please consider reaching out."
+  ],
+  "escalate_human": [
+    "Of course \u2014 I'll flag this for a human advisor to follow up with you. You can also visit the Student Services office directly for immediate help."
+  ]
+}

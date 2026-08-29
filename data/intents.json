@@ -1,0 +1,190 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "examples": [
+        "hi", "hello", "hey there", "good morning", "good afternoon",
+        "hey", "hiya", "is anyone there", "hello bot", "yo",
+        "hi there", "good evening", "hey assistant", "what's up",
+        "greetings", "hello there", "morning", "hey bot can you help",
+        "hi i need some help", "hello i have a question"
+      ],
+      "responses": [
+        "Hello! I'm the Student Support Assistant. How can I help you today?",
+        "Hi there! What can I help you with regarding your studies today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "examples": [
+        "bye", "goodbye", "see you later", "talk to you soon", "i'm done",
+        "that's all thanks", "exit", "quit", "close chat",
+        "ok bye", "i have to go now", "see you", "that's all for now",
+        "no more questions bye", "alright thanks bye", "end chat",
+        "i'm finished", "gotta go", "catch you later", "farewell"
+      ],
+      "responses": [
+        "Goodbye! Feel free to come back if you have more questions.",
+        "Take care! Good luck with your studies."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "examples": [
+        "thanks", "thank you", "that helped", "appreciate it", "thanks a lot",
+        "great, thank you", "thanks so much", "thank you very much",
+        "awesome thanks", "perfect thank you", "that's helpful thanks",
+        "thanks for the info", "much appreciated", "cool thanks",
+        "ok great thanks", "thank you for your help", "nice thank you"
+      ],
+      "responses": [
+        "You're welcome! Let me know if there's anything else.",
+        "Happy to help!"
+      ]
+    },
+    {
+      "tag": "office_hours",
+      "examples": [
+        "what are the office hours", "when can i meet my professor",
+        "office hours for advisors", "when is the advising office open",
+        "what time does the office open", "can i visit during lunch",
+        "advisor availability", "when can i see my professor",
+        "professor office hours schedule", "when is my advisor available",
+        "what time can i drop by the office", "faculty office hours",
+        "when does the advising center open", "is the advisor in today",
+        "when can i schedule a meeting with my professor",
+        "office hours for the math department", "when is the dean available",
+        "what hours is student services open", "can i meet with my advisor today",
+        "when is the registrar's office open"
+      ],
+      "responses": [
+        "Most academic advisors hold office hours Monday to Friday, 9 AM to 4 PM. Please check your professor's syllabus for their specific times.",
+        "Office hours are typically listed on your course syllabus or the department website. Generally, the advising office is open 9 AM–4 PM on weekdays."
+      ]
+    },
+    {
+      "tag": "registration_deadline",
+      "examples": [
+        "when is the registration deadline", "last date to register for classes",
+        "when does registration close", "add drop deadline",
+        "when can i enroll in courses", "course registration dates",
+        "when do i need to register by", "enrollment deadline",
+        "when does course registration start", "deadline to add a class",
+        "when is the last day to drop a course", "registration window dates",
+        "when do i sign up for next semester classes",
+        "what is the deadline to enroll", "when does the semester registration open",
+        "last day to change my schedule", "when can i register for spring semester",
+        "how late can i register for a class", "registration period for fall semester",
+        "when is the withdrawal deadline"
+      ],
+      "responses": [
+        "Registration deadlines vary by semester — typically two weeks before the term starts. Check the academic calendar on the registrar's website for exact dates.",
+        "The add/drop period usually runs during the first week of classes. Visit the registrar's page for this term's exact deadline."
+      ]
+    },
+    {
+      "tag": "financial_aid",
+      "examples": [
+        "how do i apply for financial aid", "fafsa help", "scholarship information",
+        "when is the financial aid deadline", "student loan questions",
+        "how much financial aid can i get", "grants for students",
+        "tuition assistance", "need based aid", "how do i submit fafsa",
+        "where can i find scholarships", "financial aid office contact",
+        "help with student loans", "when do i get my financial aid disbursed",
+        "how to apply for a grant", "work study program information",
+        "i can't afford tuition what are my options", "financial aid appeal process",
+        "merit scholarship application", "how do i check my financial aid status"
+      ],
+      "responses": [
+        "You can apply for financial aid through the FAFSA at studentaid.gov. Your school's financial aid office can help with scholarships and grants too.",
+        "For financial aid questions, contact the Financial Aid Office directly — they handle FAFSA, scholarships, and loan counseling."
+      ]
+    },
+    {
+      "tag": "library_hours",
+      "examples": [
+        "what time does the library open", "library hours today",
+        "is the library open on weekends", "when does the library close",
+        "library schedule", "24 hour library", "is the library open right now",
+        "what time does the library close on friday", "library hours during finals",
+        "is the library open on sundays", "when does the library open on saturday",
+        "library operating hours", "study room hours at the library",
+        "is the campus library open late", "library closing time tonight"
+      ],
+      "responses": [
+        "The main library is typically open 8 AM–10 PM on weekdays and 10 AM–6 PM on weekends. Hours may extend during finals week.",
+        "Library hours vary by semester — check the library's website for real-time hours, especially around exams."
+      ]
+    },
+    {
+      "tag": "tech_support",
+      "examples": [
+        "i can't log into the student portal", "wifi is not working on campus",
+        "forgot my student email password", "the learning platform is down",
+        "i can't access my course materials", "printer not working",
+        "reset my password", "vpn not connecting", "canvas is not loading",
+        "my account is locked", "i can't submit my assignment online",
+        "the portal is showing an error", "internet is down in the dorms",
+        "how do i reset my student id password", "email not syncing",
+        "blackboard is not working", "moodle login issue",
+        "can't connect to campus wifi", "computer lab technical issue",
+        "online exam system not loading"
+      ],
+      "responses": [
+        "For login or password issues, try the 'Forgot Password' link on the student portal. If that doesn't work, contact IT Support.",
+        "Sounds like a tech issue — I'd recommend reaching out to the campus IT Help Desk for direct troubleshooting."
+      ]
+    },
+    {
+      "tag": "course_selection",
+      "examples": [
+        "what courses should i take", "help me choose electives",
+        "course recommendations for my major", "which classes are required",
+        "prerequisites for this course", "how many credits do i need",
+        "degree requirements", "what classes do i need to graduate",
+        "help me pick my classes for next semester", "is this course a prerequisite",
+        "what electives fit my major", "how many credit hours should i take",
+        "recommended course load per semester", "what classes fulfill my gen ed requirements",
+        "which minor should i choose", "course planning for my degree",
+        "help me build my class schedule", "what are the requirements for a computer science degree"
+      ],
+      "responses": [
+        "Course selection depends on your major requirements — I'd recommend checking your degree audit or speaking with your academic advisor.",
+        "Your academic advisor can help map out required courses and electives based on your degree plan."
+      ]
+    },
+    {
+      "tag": "mental_health_support",
+      "examples": [
+        "i'm feeling stressed about school", "i need counseling",
+        "where can i get mental health support", "i'm overwhelmed",
+        "anxious about exams", "who can i talk to about stress",
+        "campus counseling services", "i'm struggling mentally with school",
+        "feeling burned out from classes", "i need someone to talk to",
+        "dealing with anxiety about finals", "where is the counseling center",
+        "i feel really overwhelmed with coursework", "mental health resources on campus",
+        "i'm having a hard time coping with school stress",
+        "who do i contact for emotional support"
+      ],
+      "responses": [
+        "Your campus Counseling Center offers free confidential support for students — I'd encourage you to reach out to them directly.",
+        "It's completely normal to feel stressed during the semester. Campus counseling services are available and confidential — please consider reaching out."
+      ]
+    },
+    {
+      "tag": "escalate_human",
+      "examples": [
+        "i want to talk to a real person", "connect me with an advisor",
+        "this isn't helping can i talk to someone", "human support please",
+        "i need to speak to staff", "can i talk to an actual person",
+        "transfer me to a human", "i need real help not a bot",
+        "put me in touch with someone from student services",
+        "can a real advisor call me", "this bot isn't helping i need a person",
+        "i'd like to speak with a staff member directly"
+      ],
+      "responses": [
+        "Of course — I'll flag this for a human advisor to follow up with you. You can also visit the Student Services office directly for immediate help."
+      ]
+    }
+  ]
+}
